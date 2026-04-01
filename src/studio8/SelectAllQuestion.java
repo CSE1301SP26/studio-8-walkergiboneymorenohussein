@@ -1,5 +1,7 @@
 package studio8;
 
+import org.junit.platform.suite.api.Select;
+
 import support.cse131.NotYetImplementedException;
 
 public class SelectAllQuestion extends MultipleChoiceQuestion {
@@ -67,6 +69,7 @@ public class SelectAllQuestion extends MultipleChoiceQuestion {
 	}	
 	
 	public static void main(String[] args) {	
-		
+		String[] options = {"Number of sides in a triangle", "1 + 2", "The integral of 3/2 from 0 to 2", "The number of prongs in an outlet"};
+		SelectAllQuestion q3 = new SelectAllQuestion("Which of the following values is equal to 3?", "1234", args);
 	}
 }

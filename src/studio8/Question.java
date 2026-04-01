@@ -56,7 +56,6 @@ public class Question {
 	}
 	
 	public static void main(String[] args) {
-		// TODO: Create a Question object of your own!
 		Question q1 = new Question("Is the sky blue", "Yes", 1);
 	}
 }

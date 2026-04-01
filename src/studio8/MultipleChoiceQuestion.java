@@ -40,7 +40,8 @@ public class MultipleChoiceQuestion extends Question {
 	}
 	
 	public static void main(String[] args) {
-		// TODO: create your own MultipleChoiceQuestion
+		String [] answers = {"The number of stars in out solar system", "The number of hydrogen atoms in a water molecule", "3", "Your GPA"};
+		MultipleChoiceQuestion q2 = new MultipleChoiceQuestion("Which number is the largest?", "3", 0, answers);
 	}
 
 }
